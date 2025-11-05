@@ -62,9 +62,9 @@ with st.container():
     top_n = st.slider("Number of recommendations:", 1, 20, 5)
 
     with st.expander("Advanced Settings (Weights)"):
-        alpha = st.slider("Story Weight", 0.0, 1.0, 0.6)
-        beta = st.slider("Genre Match Weight", 0.0, 1.0, 0.2)
-        gamma = st.slider("Game Score Weight", 0.0, 1.0, 0.2)
+        alpha = st.slider("Story Weight", 0.0, 1.0, 0.8)
+        beta = st.slider("Genre Match Weight", 0.0, 1.0, 0.1)
+        gamma = st.slider("Game Score Weight", 0.0, 1.0, 0.1)
 
     if st.button("🔍 Recommend Games"):
         if query.strip() == "":
