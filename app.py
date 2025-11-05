@@ -118,6 +118,6 @@ st.markdown("""
          <a href="https://www.kaggle.com/uuratl" target="_blank">Kaggle</a> |
          <a href="mailto:uguratli.contact@gmail.com">Email</a>
     </p>
-    <p>Made with ❤️ using <b>Streamlit</b> and <b>Python</b> by <b>Your Name</b>.</p>
+    <p>Made with ❤️ using <b>Streamlit</b> and <b>Python</b> by <b>Uğur Atlı </b>.</p>
 </div>
 """, unsafe_allow_html=True)
